@@ -1,0 +1,20 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+
+# User PDF Reports
+reports/*.pdf
+!reports/test_report.pdf
+
+# OS Specific
+.DS_Store
+Thumbs.db
